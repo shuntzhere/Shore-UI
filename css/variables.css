@@ -1,9 +1,9 @@
 :root {
   --color-primary: hsl(185, 76%, 50%);
   --color-secondary: hsl(66, 81%, 59%);
-  --color-default: hsl(211, 86%, 20%);
+  --color-default: hsl(217, 63%, 20%);
 
-  --default-hover: hsla(211, 86%, 20%, 0.8);
+  --default-hover: hsla(217, 63%, 20%, 0.8);
   --primary-hover: hsla(185, 76%, 50%, 0.8);
   --secondary-hover: hsla(66, 81%, 59%, 0.8);
 
