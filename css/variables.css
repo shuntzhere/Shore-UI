@@ -1,0 +1,32 @@
+:root {
+  --color-primary: hsl(185, 76%, 50%);
+  --color-secondary: hsl(66, 81%, 59%);
+  --color-default: hsl(211, 86%, 20%);
+
+  --default-hover: hsla(211, 86%, 20%, 0.8);
+  --primary-hover: hsla(185, 76%, 50%, 0.8);
+  --secondary-hover: hsla(66, 81%, 59%, 0.8);
+
+  --color-black: hsl(0, 0%, 16%);
+  --color-white: hsl(0, 0%, 100%);
+
+  --color-danger: hsl(6, 78%, 57%);
+  --color-success: hsl(145, 63%, 49%);
+  --color-warning: hsl(48, 89%, 50%);
+
+  --color-grey: hsl(0, 0%, 60%);
+  --color-shadow: hsl(0, 0%, 77%);
+  --color-off-white: hsl(0, 0%, 97%);
+
+  /* font-weights */
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-black: 900;
+
+  /* margin & padding  */
+  --padding: 0.25rem;
+  --margin: 0.25rem;
+}

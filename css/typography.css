@@ -1,0 +1,29 @@
+h1,
+.xl-p {
+  font-size: 48px;
+  line-height: 64px;
+}
+
+h2,
+.lg-p {
+  font-size: 32px;
+  line-height: 32px;
+}
+
+h3,
+.md-p {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+h4,
+.sm-p {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+h5,
+.xs-p {
+  font-size: 8px;
+  line-height: 8px;
+}
