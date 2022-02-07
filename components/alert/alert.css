@@ -1,0 +1,53 @@
+.alert {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  margin: 1rem;
+  background-color: var(--color-default);
+  border-radius: 25px;
+  opacity: 0.9;
+  color: var(--color-white);
+}
+
+.svg {
+  height: 10px;
+  width: 10px;
+  margin-right: 1rem;
+}
+
+.warning {
+  background-color: var(--color-warning);
+}
+
+.error {
+  background-color: var(--color-danger);
+}
+
+.success {
+  background-color: var(--color-success);
+}
+
+/* Outline Variants */
+
+.outline-primary {
+  border: 1px solid var(--color-default);
+  color: var(--color-default);
+  background-color: var(--color-white);
+}
+
+.outline-error {
+  border: 1px solid var(--color-danger);
+  color: var(--color-danger);
+  background-color: var(--color-white);
+}
+
+.outline-success {
+  border: 1px solid var(--color-success);
+  color: var(--color-success);
+  background-color: var(--color-white);
+}
+
+.outline-warning {
+  border: 1px solid var(--color-warning);
+  color: var(--color-warning);
+  background-color: var(--color-white);
+}
