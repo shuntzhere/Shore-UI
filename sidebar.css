@@ -56,15 +56,15 @@
 .list-subtopic a {
   display: flex;
   align-items: center;
-  color: var(--color-shadow);
+  color: var(--color-grey);
   text-decoration: none;
-  transition: all 0.3s ease-in-out;
 }
 
 @media screen and (max-width: 800px) {
   nav {
     margin: 0 1rem;
   }
+
   .docs-sidebar {
     top: 0;
     bottom: 0;
@@ -76,9 +76,5 @@
     z-index: 2;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: none;
-  }
-
-  .btn-float {
-    display: block;
   }
 }
