@@ -1,5 +1,9 @@
 /assets
-components/alert/alert.html
+
 index.html
+
+components/alert/alert.html
 components/avatar/avatar.html
+components/badge/badge.html
+
 sidebarToggle.js
