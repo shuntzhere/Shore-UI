@@ -151,3 +151,8 @@
   margin-top: calc(5 * var(--margin));
   margin-bottom: calc(5 * var(--margin));
 }
+
+.my-6 {
+  margin-top: calc(6 * var(--margin));
+  margin-bottom: calc(6 * var(--margin));
+}

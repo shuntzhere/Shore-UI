@@ -1,6 +1,15 @@
+/* base files  */
 @import "./reset.css";
 @import "./variables.css";
 @import "./utility.css";
 @import "./margin.css";
 @import "./padding.css";
 @import "./typography.css";
+
+/* components  */
+@import "/nav.css";
+@import "/main.css";
+@import "/sidebar.css";
+
+/* components  */
+@import "/components/alert/alert.css";

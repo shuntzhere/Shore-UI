@@ -17,6 +17,7 @@
   --color-grey: hsl(0, 0%, 60%);
   --color-shadow: hsl(0, 0%, 77%);
   --color-off-white: hsl(0, 0%, 97%);
+  --color-wolf-white: hsl(210, 7%, 89%);
 
   /* font-weights */
   --font-light: 300;
@@ -24,7 +25,7 @@
   --font-medium: 500;
   --font-semibold: 600;
   --font-bold: 700;
-  --font-black: 900;
+  --font-boldest: 900;
 
   /* margin & padding  */
   --padding: 0.25rem;
