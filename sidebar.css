@@ -5,12 +5,12 @@
 }
 
 .docs-content {
-  margin: 0 0 2rem 0;
+  margin: 1rem 0 1rem 0;
 }
 
 .docs-sidebar {
   flex: 0 0 200px;
-  margin-right: 5rem;
+  margin: 1rem 5rem 0 0;
   background-color: var(--color-white);
 }
 
