@@ -5,5 +5,6 @@ index.html
 components/alert/alert.html
 components/avatar/avatar.html
 components/badge/badge.html
+components/button/button.html
 
 sidebarToggle.js

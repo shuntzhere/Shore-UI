@@ -1,18 +1,18 @@
 :root {
-  --color-primary: hsl(185, 76%, 50%);
-  --color-secondary: hsl(66, 81%, 59%);
-  --color-default: hsl(217, 63%, 20%);
+  --color-default: hsl(185, 76%, 50%);
+  --color-primary: hsl(217, 63%, 20%);
+  --color-secondary: hsl(40, 57%, 39%);
 
-  --default-hover: hsla(217, 63%, 20%, 0.8);
-  --primary-hover: hsla(185, 76%, 50%, 0.8);
-  --secondary-hover: hsla(66, 81%, 59%, 0.8);
+  --default-hover: hsla(185, 76%, 50%, 0.8);
+  --primary-hover: hsla(217, 63%, 20%, 0.8);
+  --secondary-hover: hsla(40, 57%, 39%, 0.8);
 
   --color-black: hsl(0, 0%, 16%);
   --color-white: hsl(0, 0%, 100%);
 
   --color-danger: hsl(6, 78%, 57%);
   --color-success: hsl(145, 63%, 49%);
-  --color-warning: hsl(48, 89%, 50%);
+  --color-warning: hsl(53, 98%, 47%);
 
   --color-grey: hsl(0, 0%, 60%);
   --color-shadow: hsl(0, 0%, 77%);
