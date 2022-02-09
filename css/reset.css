@@ -65,6 +65,6 @@ select {
     left top,
     color-stop(0.14, rgb(122, 153, 217)),
     color-stop(0.42, rgb(73, 125, 189)),
-    color-stop(0.76, var(--color-default))
+    color-stop(0.76, var(--color-primary))
   );
 }
