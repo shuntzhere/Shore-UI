@@ -29,15 +29,17 @@
 }
 
 .list-subtopic {
-  padding: 0.4rem 0.8rem;
+  padding: 0.4rem 1rem 0.4rem 0.5rem;
   margin-bottom: 0.5rem;
   transition: all 0.3s ease-in;
   font-size: 1rem;
 }
 
 .list-subtopic .active {
-  font-weight: var(--font-bold);
-  color: var(--default-color);
+  font-weight: var(--font-boldest);
+  color: var(--color-black);
+  transform: scale(1.1);
+  transition: all 0.3s ease-in;
 }
 
 .list-subtopic li {
@@ -50,7 +52,7 @@
 
 .list-subtopic li a:hover {
   cursor: pointer;
-  color: var(--color-default);
+  color: var(--secondary-hover);
 }
 
 .list-subtopic a {

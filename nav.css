@@ -1,5 +1,5 @@
 .nav-container {
-  background-color: var(--color-default);
+  background-color: var(--color-primary);
 }
 
 nav {
@@ -50,7 +50,7 @@ main {
   max-width: 800px;
 }
 
-.twin-button > a {
+/* .twin-button > a {
   position: relative;
   background: var(--color-default);
   min-width: 100px;
@@ -61,19 +61,19 @@ main {
   cursor: pointer;
   border-radius: 2px;
   font-weight: var(--font-semibold);
-}
+} */
 
 .head {
   text-align: center;
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: var(--font-bold);
 }
 
 .subhead {
   margin: 0 auto;
   text-align: center;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: var(--font-medium);
   max-width: 800px;
 }
 
