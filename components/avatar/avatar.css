@@ -1,0 +1,49 @@
+.avatar {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 1rem;
+}
+
+.squared-avatar {
+  border-radius: 5%;
+}
+
+.hover-avatar:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+/* avatar sizes */
+.xs {
+  width: 10px;
+  height: 10px;
+}
+
+.sm {
+  width: 20px;
+  height: 20px;
+}
+
+.md {
+  width: 30px;
+  height: 30px;
+}
+
+.lg {
+  width: 40px;
+  height: 40px;
+}
+
+.xl {
+  width: 50px;
+  height: 50px;
+}
+
+.xxl {
+  width: 60px;
+  height: 60px;
+}

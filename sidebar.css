@@ -5,7 +5,7 @@
 }
 
 .docs-content {
-  margin-top: 2rem;
+  margin: 0 0 2rem 0;
 }
 
 .docs-sidebar {
@@ -62,7 +62,11 @@
 
 @media screen and (max-width: 800px) {
   nav {
-    margin: 0 1rem;
+    padding: 0 1rem;
+  }
+
+  .docs-container {
+    padding: 1rem;
   }
 
   .docs-sidebar {
@@ -76,5 +80,15 @@
     z-index: 2;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: none;
+  }
+}
+
+@media screen and (max-width: 1032px) {
+  .docs-container {
+    padding: 1rem;
+  }
+
+  nav {
+    padding: 0 1rem;
   }
 }
