@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/base.css" />
+    <title>Card</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav-container">
+        <nav>
+          <div class="left-nav flex flex-items-center justify-between">
+            <img class="hamburger" src="/assets/svg/hamburger-solid.svg" />
+            <a href="./index.html">
+              <img class="logo flex-grow" src="/assets/svg/logo.svg" />
+            </a>
+            <a class="right-nav flex" href="#">Docs</a>
+          </div>
+          <!-- <div></div> -->
+        </nav>
+      </div>
+
+      <div class="docs-container flex">
+        <div class="docs-sidebar">
+          <!-- Installation Page -->
+          <div>
+            <div class="list-topic">
+              <a href="/Get Started/installation.html"> Installation </a>
+            </div>
+          </div>
+
+          <!-- Components List -->
+          <div>
+            <div class="list-topic">
+              <a href="/Components/alert/alert.html"> Components </a>
+            </div>
+            <ul class="list-subtopic">
+              <li>
+                <a href="/components/alert/alert.html"> Alert </a>
+              </li>
+              <li>
+                <a href="/Components/avatar/avatar.html"> Avatar </a>
+              </li>
+              <li>
+                <a href="/Components/badge/badge.html"> Badge </a>
+              </li>
+              <li>
+                <a href="/Components/button/button.html"> Button </a>
+              </li>
+              <li>
+                <a class="active" href="/Components/card/card.html"> Card </a>
+              </li>
+              <li>
+                <a href="/Components/image/image.html"> Image </a>
+              </li>
+              <li>
+                <a href="/Components/input/input.html"> Input </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="docs-content">
+          <div class="content-title mb-4">Card</div>
+          <div class="content-subtitle">
+            Card is any block that provides information about a product or a
+            profile.
+          </div>
+
+          <div class="divider"></div>
+
+          <!-- Standard Input -->
+
+          <div class="content-head mb-4">Vertical Card</div>
+
+          <div class="content-subtitle">Vertical Card</div>
+
+          <div class="example-div p-4">
+            <div class="card">
+              <img class="card-image" src="/assets/images/ecomm3.jpg" />
+              <div class="card-content">
+                <h3 class="card-header">Sea shells</h3>
+                <p class="card-text">Straight from the sea.</p>
+                <div class="card-btn">
+                  <p><span>25</span>$</p>
+                  <button class="btn default-btn" type="button">buy now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522%252Fassets%252Fimages%252Fecomm3.jpg%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-header%2522%253ESea%2520shells%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253EStraight%2520from%2520the%2520sea.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%253Cspan%253E25%253C%252Fspan%253E%2524%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520default-btn%2522%2520type%253D%2522button%2522%253Ebuy%2520now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 1000px;
+              height: 375px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <div class="divider"></div>
+
+          <div class="content-head mb-4">Text Only Card</div>
+
+          <div class="content-subtitle">Text Only card</div>
+
+          <div class="example-div p-4">
+            <div class="card textonly-card">
+              <div class="card-content">
+                <h3 class="card-header">Sea shells</h3>
+                <p class="card-text">Straight from the sea.</p>
+                <div class="card-btn">
+                  <p><span>25</span>$</p>
+                  <button class="btn default-btn" type="button">buy now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520textonly-card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-header%2522%253ESea%2520shells%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253EStraight%2520from%2520the%2520sea.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%253Cspan%253E25%253C%252Fspan%253E%2524%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520default-btn%2522%2520type%253D%2522button%2522%253Ebuy%2520now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 1000px;
+              height: 356px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <div class="divider"></div>
+
+          <div class="content-head mb-4">Text Overlay Card</div>
+
+          <div class="content-subtitle">Text Overlay card</div>
+
+          <div class="example-div p-4">
+            <div class="card text-overlay">
+              <img class="card-image" src="/assets/images/ecomm3.jpg" />
+              <div class="card-content">
+                <h3 class="card-header overlay-text">Sea shells</h3>
+                <!--<p class="card-text">Straight from the sea.</p> -->
+                <div class="card-btn">
+                  <!-- <p><span>25</span>$</p> -->
+                  <button class="btn secondary-btn" type="button">
+                    buy now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520text-overlay%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522%252Fassets%252Fimages%252Fecomm3.jpg%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-header%2520overlay-text%2522%253ESea%2520shells%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520secondary-btn%2522%2520type%253D%2522button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520buy%2520now%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 1000px;
+              height: 375px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <div class="divider"></div>
+
+          <div class="content-head mb-4">Badged Card</div>
+
+          <div class="content-subtitle">Badged card</div>
+
+          <div class="example-div p-4">
+            <div class="card badge-card">
+              <div class="image-badge">Best Value</div>
+              <img class="card-image" src="/assets/images/ecomm3.jpg" />
+              <div class="card-content">
+                <h3 class="card-header">Sea shells</h3>
+                <p class="card-text">Straight from the sea.</p>
+                <div class="card-btn">
+                  <p><span>25</span>$</p>
+                  <button class="btn default-btn" type="button">buy now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520badge-card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522image-badge%2522%253EBest%2520Value%253C%252Fdiv%253E%250A%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522%252Fassets%252Fimages%252Fecomm3.jpg%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-header%2522%253ESea%2520shells%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253EStraight%2520from%2520the%2520sea.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%253Cspan%253E25%253C%252Fspan%253E%2524%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520default-btn%2522%2520type%253D%2522button%2522%253Ebuy%2520now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 1000px;
+              height: 394px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <div class="divider"></div>
+
+          <div class="content-head mb-4">Dismissable Card</div>
+
+          <div class="content-subtitle">Dismissable card</div>
+
+          <div class="example-div p-4">
+            <div class="card dismissable-card">
+              <div class="image-badge">Best Value</div>
+              <img class="svg" src="/assets/svg/heart.svg" />
+              <img class="card-image" src="/assets/images/ecomm3.jpg" />
+              <div class="card-content">
+                <h3 class="card-header">Sea shells</h3>
+                <p class="card-text">Straight from the sea.</p>
+                <div class="card-btn">
+                  <p><span>25</span>$</p>
+                  <button class="btn default-btn" type="button">buy now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520dismissable-card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522image-badge%2522%253EBest%2520Value%253C%252Fdiv%253E%250A%2520%2520%253Cimg%2520class%253D%2522svg%2522%2520src%253D%2522%252Fassets%252Fsvg%252Fheart.svg%2522%2520%252F%253E%250A%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522%252Fassets%252Fimages%252Fecomm3.jpg%2522%2520%252F%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-header%2522%253ESea%2520shells%253C%252Fh3%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2522%253EStraight%2520from%2520the%2520sea.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253E%253Cspan%253E25%253C%252Fspan%253E%2524%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520default-btn%2522%2520type%253D%2522button%2522%253Ebuy%2520now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 1000px;
+              height: 412px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <div class="divider"></div>
+        </div>
+      </div>
+    </div>
+    <script src="/sidebarToggle.js"></script>
+  </body>
+</html>
