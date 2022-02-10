@@ -1,13 +1,14 @@
 /assets
 
 # index.html
+sidebarToggle.js
 
 components/alert/alert.html
 components/avatar/avatar.html
 components/badge/badge.html
 components/button/button.html
 
-sidebarToggle.js
 components/image/image.html
 components/input/input.html
 components/card/card.html
+components/navbar/navbar.html
