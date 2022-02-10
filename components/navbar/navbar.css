@@ -1,0 +1,8 @@
+.navigation-container > nav {
+  width: 50rem;
+  background-color: var(--color-primary);
+}
+
+.nav-logo {
+  color: var(--color-white);
+}
