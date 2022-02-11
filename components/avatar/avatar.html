@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/base.css" />
+    <title>Avatar</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav-container">
+        <nav class="">
+          <div class="left-nav flex flex-items-center justify-between">
+            <img class="hamburger" src="/assets/svg/hamburger-solid.svg" />
+            <a href="../../../index.html">
+              <img class="logo flex-grow" src="/assets/svg/logo.svg" />
+            </a>
+            <a class="right-nav flex" href="#">Docs</a>
+          </div>
+          <!-- <div></div> -->
+        </nav>
+      </div>
+
+      <div class="docs-container flex">
+        <div class="docs-sidebar">
+          <!-- Installation Page -->
+          <div>
+            <div class="list-topic">
+              <a href="/installation.html"> Installation </a>
+            </div>
+          </div>
+
+          <!-- Components List -->
+          <div>
+            <div class="list-topic">
+              <a href="/Components/alert/alert.html">Components</a>
+            </div>
+            <ul class="list-subtopic">
+              <li>
+                <a href="/components/alert/alert.html"> Alert </a>
+              </li>
+              <li>
+                <a class="active" href="/Components/Avatar/avatar.html">
+                  Avatar
+                </a>
+              </li>
+              <li>
+                <a href="/Components/Badge/badge.html"> Badge </a>
+              </li>
+              <li>
+                <a href="/Components/Button/button.html"> Button </a>
+              </li>
+              <li>
+                <a href="/Components/Card/card.html"> Card </a>
+              </li>
+              <li>
+                <a href="/Components/image/image.html"> Image </a>
+              </li>
+              <li>
+                <a href="/Components/Input/input.html"> Input </a>
+              </li>
+              <li>
+                <a href="/Components/list/list.html"> List </a>
+              </li>
+              <li>
+                <a href="/Components/navbar/navbar.html"> Navbar </a>
+              </li>
+              <li>
+                <a href="/Components/snackbar/snackbar.html"> Snackbar </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="docs-content">
+          <div class="content-title mb-4">Avatar</div>
+          <div class="content-subtitle">
+            An avatar icon is a figure representing a particular person in an
+            app or a profile.
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="content-head mb-4">Standard Avatar</div>
+
+          <div class="content-subtitle">
+            Standard Avatars can be created using <code>avatar</code>. Use
+            <code>.squared-avatar</code> for squared avatars.
+          </div>
+          <div class="example-div flex-col p-4">
+            <div
+              class="standard__avatars flex flex-col flex-items-center justify-between"
+            >
+              <h3>Standard Avatars</h3>
+              <div>
+                <img
+                  class="avatar"
+                  src="../../assets/images/image2.jpg"
+                  alt="Fish"
+                />
+                <img
+                  class="avatar squared-avatar"
+                  src="../../assets/images/image2.jpg"
+                  alt="Fish"
+                />
+              </div>
+            </div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%250A%2520%2520class%253D%2522standard__avatars%2520flex%2520flex-col%2520flex-items-center%2520justify-between%2522%250A%253E%250A%2520%2520%253Ch3%253EStandard%2520Avatars%253C%252Fh3%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252Fassets%252Fimages%252Fimage2.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Fish%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520squared-avatar%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252Fassets%252Fimages%252Fimage2.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Fish%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 1000px;
+              height: 500px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <div class="divider"></div>
+
+          <div class="content-head mb-4">Avatar with Hover</div>
+
+          <div class="content-subtitle">
+            Hoverable Avatars can be created using <code>avatar</code> class,
+            followed by the <code>shape</code> together with
+            <code>hover-avatar</code>.
+          </div>
+          <div class="example-div flex-col p-4">
+            <div
+              class="standard__avatars flex flex-col flex-items-center justify-between"
+            >
+              <h3>Avatar with hover</h3>
+              <div>
+                <img
+                  class="avatar hover-avatar"
+                  src="../../assets/images/image2.jpg"
+                  alt="Fish"
+                />
+                <img
+                  class="avatar squared-avatar hover-avatar"
+                  src="../../assets/images/image2.jpg"
+                  alt="Fish"
+                />
+              </div>
+            </div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%250A%2520%2520class%253D%2522standard__avatars%2520flex%2520flex-col%2520flex-items-center%2520justify-between%2522%250A%253E%250A%2520%2520%253Ch3%253EAvatar%2520with%2520hover%253C%252Fh3%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520hover-avatar%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252Fassets%252Fimages%252Fimage2.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Fish%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520squared-avatar%2520hover-avatar%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252Fassets%252Fimages%252Fimage2.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Fish%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 1000px;
+              height: 500px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <div class="divider"></div>
+
+          <!-- OUTLINE ALERT -->
+          <div class="content-head">Different Sized Avatars</div>
+
+          <div class="content-subtitle">
+            Different sized avatars can be created by using
+            <code>avatar</code> class, followed by <code>size</code>.
+          </div>
+
+          <div class="example-div p-4">
+            <div
+              class="sized__avatars flex flex-col flex-items-center justify-between"
+            >
+              <h3>Different sized Avatars</h3>
+              <div class="flex flex-items-center">
+                <img
+                  class="avatar xs"
+                  src="../../assets/images/image2.jpg"
+                  alt="Small Fish"
+                />
+                <img
+                  class="avatar sm"
+                  src="../../assets/images/image2.jpg"
+                  alt="Small Fish"
+                />
+                <img
+                  class="avatar md"
+                  src="../../assets/images/image2.jpg"
+                  alt="Small Fish"
+                />
+                <img
+                  class="avatar lg"
+                  src="../../assets/images/image2.jpg"
+                  alt="Small Fish"
+                />
+                <img
+                  class="avatar xl"
+                  src="../../assets/images/image2.jpg"
+                  alt="Medium Fish"
+                />
+                <img
+                  class="avatar xxl"
+                  src="../../assets/images/image2.jpg"
+                  alt="Large Fish"
+                />
+              </div>
+            </div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%250A%2520%2520class%253D%2522sized__avatars%2520flex%2520flex-col%2520flex-items-center%2520justify-between%2522%250A%253E%250A%2520%2520%253Ch3%253EDifferent%2520sized%2520Avatars%253C%252Fh3%253E%250A%2520%2520%253Cdiv%2520class%253D%2522flex%2520flex-items-center%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520xs%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252Fassets%252Fimages%252Fimage2.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Small%2520Fish%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520sm%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252Fassets%252Fimages%252Fimage2.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Small%2520Fish%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520md%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252Fassets%252Fimages%252Fimage2.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Small%2520Fish%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520lg%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252Fassets%252Fimages%252Fimage2.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Small%2520Fish%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520xl%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252Fassets%252Fimages%252Fimage2.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Medium%2520Fish%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520xxl%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252Fassets%252Fimages%252Fimage2.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Large%2520Fish%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 1000px;
+              height: 500px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+      </div>
+    </div>
+    <script src="/sidebarToggle.js"></script>
+  </body>
+</html>

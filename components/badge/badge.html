@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/base.css" />
+    <title>Badge</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav-container">
+        <nav class="">
+          <div class="left-nav flex flex-items-center justify-between">
+            <img class="hamburger" src="/assets/svg/hamburger-solid.svg" />
+            <a href="../../../index.html">
+              <img class="logo flex-grow" src="/assets/svg/logo.svg" />
+            </a>
+            <a class="right-nav flex" href="#">Docs</a>
+          </div>
+          <!-- <div></div> -->
+        </nav>
+      </div>
+
+      <div class="docs-container flex">
+        <div class="docs-sidebar">
+          <!-- Installation Page -->
+          <div>
+            <div class="list-topic">
+              <a href="/installation.html"> Installation </a>
+            </div>
+          </div>
+
+          <!-- Components List -->
+          <div>
+            <div class="list-topic">
+              <a href="/Components/alert/alert.html"> Components </a>
+            </div>
+            <ul class="list-subtopic">
+              <li>
+                <a href="/components/alert/alert.html"> Alert </a>
+              </li>
+              <li>
+                <a href="/Components/avatar/avatar.html"> Avatar </a>
+              </li>
+              <li>
+                <a class="active" href="/Components/badge/badge.html">
+                  Badge
+                </a>
+              </li>
+              <li>
+                <a href="/Components/button/button.html"> Button </a>
+              </li>
+              <li>
+                <a href="/Components/card/card.html"> Card </a>
+              </li>
+              <li>
+                <a href="/Components/image/image.html"> Image </a>
+              </li>
+              <li>
+                <a href="/Components/input/input.html"> Input </a>
+              </li>
+              <li>
+                <a href="/Components/list/list.html"> List </a>
+              </li>
+              <li>
+                <a href="/Components/navbar/navbar.html"> Navbar </a>
+              </li>
+              <li>
+                <a href="/Components/snackbar/snackbar.html"> Snackbar </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="docs-content">
+          <div class="content-title mb-4">Badge</div>
+          <div class="content-subtitle">
+            An badge is how a user is represented.
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="content-head mb-4">Standard Badge</div>
+
+          <div class="content-subtitle">
+            Standard Badges can be created using <code>badge</code> class.
+          </div>
+          <div class="example-div flex-col p-4">
+            <div class="standard flex">
+              <div class="badge">
+                <img
+                  class="avatar"
+                  src="/assets/images/image2.jpg"
+                  alt="avatar"
+                />
+                <div class="online"></div>
+              </div>
+              <div class="badge">
+                <img
+                  class="avatar"
+                  src="/assets/images/avatar.jpg"
+                  alt="avatar"
+                />
+                <div class="offline"></div>
+              </div>
+              <div class="badge">
+                <img
+                  class="avatar"
+                  src="/assets/images/image1.jpg"
+                  alt="avatar"
+                />
+                <div class="dnd"></div>
+              </div>
+            </div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522standard%2520flex%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522%252Fassets%252Fimages%252Fimage2.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522avatar%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522online%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522%252Fassets%252Fimages%252Favatar.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522avatar%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522offline%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522%252Fassets%252Fimages%252Fimage1.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522avatar%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522dnd%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 1024px;
+              height: 473px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <div class="divider"></div>
+
+          <!-- Numbered badges -->
+          <div class="content-head">Badges with numbers</div>
+
+          <div class="content-subtitle">
+            Numbered badges can be used using class
+            <code>badge</code>, followed by <code>number</code> class.
+          </div>
+
+          <div class="example-div p-4">
+            <div class="numbered flex">
+              <div class="badge">
+                <img
+                  class="avatar"
+                  src="/assets/svg/discord.svg"
+                  alt="avatar"
+                />
+                <div class="number">51</div>
+              </div>
+
+              <div class="badge">
+                <img class="avatar" src="/assets/svg/bell.svg" alt="avatar" />
+                <div class="number">17</div>
+              </div>
+
+              <div class="badge">
+                <img
+                  class="avatar"
+                  src="/assets/svg/exclamation-solid.svg"
+                  alt="avatar"
+                />
+                <div class="number">99</div>
+              </div>
+            </div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522numbered%2520flex%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522%252Fassets%252Fsvg%252Fdiscord.svg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522avatar%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522number%2522%253E51%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522%252Fassets%252Fsvg%252Fbell.svg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522number%2522%253E17%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522%252Fassets%252Fsvg%252Fexclamation-solid.svg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522avatar%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522number%2522%253E99%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 1024px;
+              height: 473px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+      </div>
+    </div>
+    <script src="/sidebarToggle.js"></script>
+  </body>
+</html>

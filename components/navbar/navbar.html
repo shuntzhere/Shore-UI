@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="/css/base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav-container">
+        <nav>
+          <div class="left-nav flex flex-items-center justify-between">
+            <img class="hamburger" src="/assets/svg/hamburger-solid.svg" />
+            <a href="../../../index.html">
+              <img class="logo flex-grow" src="/assets/svg/logo.svg" />
+            </a>
+            <a class="right-nav flex" href="#">Docs</a>
+          </div>
+          <!-- <div></div> -->
+        </nav>
+      </div>
+
+      <div class="docs-container flex">
+        <div class="docs-sidebar">
+          <!-- Installation Page -->
+          <div>
+            <div class="list-topic">
+              <a href="/installation.html"> Installation </a>
+            </div>
+          </div>
+
+          <!-- Components List -->
+          <div>
+            <div class="list-topic">
+              <a href="/Components/alert/alert.html"> Components </a>
+            </div>
+            <ul class="list-subtopic">
+              <li>
+                <a href="/components/alert/alert.html"> Alert </a>
+              </li>
+              <li>
+                <a href="/Components/avatar/avatar.html"> Avatar </a>
+              </li>
+              <li>
+                <a href="/Components/badge/badge.html"> Badge </a>
+              </li>
+              <li>
+                <a href="/Components/button/button.html"> Button </a>
+              </li>
+              <li>
+                <a href="/Components/card/card.html"> Card </a>
+              </li>
+              <li>
+                <a href="/Components/image/image.html"> Image </a>
+              </li>
+              <li>
+                <a href="/Components/input/input.html"> Input </a>
+              </li>
+              <li>
+                <a href="/Components/list/list.html"> List </a>
+              </li>
+              <li>
+                <a class="active" href="/Components/navbar/navbar.html">
+                  Navbar
+                </a>
+              </li>
+              <li>
+                <a href="/Components/snackbar/snackbar.html"> Snackbar </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="docs-content">
+          <div class="content-title mb-4">Navbar</div>
+          <div class="content-subtitle">
+            Input are found on top of a website that provides all the useful
+            links to navigate around in the site.
+          </div>
+
+          <div class="divider"></div>
+
+          <!-- Standard Input -->
+
+          <div class="content-head mb-4">Navbar</div>
+
+          <div class="content-subtitle">
+            Navbar with logo and 3 different links
+          </div>
+
+          <div class="example-div p-4">
+            <div class="navigation-container">
+              <nav>
+                <div class="flex flex-items-center justify-between">
+                  <h3 class="nav-logo">Logo</h3>
+                  <div class="nav-right flex">
+                    <a class="right-nav flex" href="#">Home</a>
+                    <a class="right-nav flex" href="#">About</a>
+                    <a class="right-nav flex" href="#">Github</a>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cnav%253E%250A%2520%253Cdiv%2520class%253D%2522flex%2520flex-items-center%2520justify-between%2522%253E%250A%2520%2520%253Ch3%2520class%253D%2522nav-logo%2522%253ELogo%253C%252Fh3%253E%250A%2520%2520%253Cdiv%2520class%253D%2522nav-right%2520flex%2522%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522right-nav%2520flex%2522%2520href%253D%2522%2523%2522%253EHome%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522right-nav%2520flex%2522%2520href%253D%2522%2523%2522%253EAbout%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522right-nav%2520flex%2522%2520href%253D%2522%2523%2522%253EGithub%253C%252Fa%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%253C%252Fnav%253E"
+            style="
+              width: 1000px;
+              height: 356px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <div class="divider"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/sidebarToggle.js"></script>
+  </body>
+</html>

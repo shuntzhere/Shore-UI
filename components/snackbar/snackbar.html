@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/base.css" />
+    <title>Snackbar</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav-container">
+        <nav>
+          <div class="left-nav flex flex-items-center justify-between">
+            <img class="hamburger" src="/assets/svg/hamburger-solid.svg" />
+            <a href="../../../index.html">
+              <img class="logo flex-grow" src="/assets/svg/logo.svg" />
+            </a>
+            <a class="right-nav flex" href="#">Docs</a>
+          </div>
+          <!-- <div></div> -->
+        </nav>
+      </div>
+
+      <div class="docs-container flex">
+        <div class="docs-sidebar">
+          <!-- Installation Page -->
+          <div>
+            <div class="list-topic">
+              <a href="/installation.html"> Installation </a>
+            </div>
+          </div>
+
+          <!-- Components List -->
+          <div>
+            <div class="list-topic">
+              <a href="/Components/alert/alert.html"> Components </a>
+            </div>
+            <ul class="list-subtopic">
+              <li>
+                <a href="/components/alert/alert.html"> Alert </a>
+              </li>
+              <li>
+                <a href="/Components/avatar/avatar.html"> Avatar </a>
+              </li>
+              <li>
+                <a href="/Components/badge/badge.html"> Badge </a>
+              </li>
+              <li>
+                <a href="/Components/button/button.html"> Button </a>
+              </li>
+              <li>
+                <a href="/Components/card/card.html"> Card </a>
+              </li>
+              <li>
+                <a href="/Components/image/image.html"> Image </a>
+              </li>
+              <li>
+                <a href="/Components/input/input.html"> Input </a>
+              </li>
+              <li>
+                <a href="/Components/list/list.html"> List </a>
+              </li>
+              <li>
+                <a href="/Components/navbar/navbar.html"> Navbar </a>
+              </li>
+              <li>
+                <a class="active" href="/Components/snackbar/snackbar.html">
+                  Snackbar
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="docs-content">
+          <div class="content-title mb-4">Snackbar</div>
+          <div class="content-subtitle">
+            Snackbar or a toast is a block that give important information to
+            the user and appears on the screen for a limited amount of time.
+          </div>
+
+          <div class="divider"></div>
+
+          <!-- Standard Input -->
+
+          <div class="content-head mb-4">Snackbar</div>
+
+          <div class="content-subtitle">
+            Snackbar that can be invoked when a button is pressed.
+          </div>
+
+          <div class="example-div p-4">
+            <div class="snackbar-div">
+              <div class="snackbar">
+                <div class="snackbar-text">You can't see me in 5 seconds.</div>
+                <div class="snackbar-text">
+                  <button class="btn default-btn">RETRY</button>
+                </div>
+                <img
+                  class="fas fa-times"
+                  src="/assets/svg/times-solid.svg"
+                  id="close"
+                />
+              </div>
+            </div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522snackbar%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522snackbar-text%2522%253EYou%2520can%27t%2520see%2520me%2520in%25205%2520seconds.%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522snackbar-text%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520default-btn%2522%253ERETRY%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cimg%250A%2520%2520%2520%2520class%253D%2522fas%2520fa-times%2522%250A%2520%2520%2520%2520src%253D%2522%252Fassets%252Fsvg%252Ftimes-solid.svg%2522%250A%2520%2520%2520%2520id%253D%2522close%2522%250A%2520%2520%252F%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 1000px;
+              height: 391px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <div class="divider"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/sidebarToggle.js"></script>
+  </body>
+</html>
