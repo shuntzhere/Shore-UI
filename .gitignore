@@ -14,3 +14,4 @@ components/card/card.html
 components/navbar/navbar.html
 components/snackbar/snackbar.html
 components/list/list.html
+components/grid/grid.html

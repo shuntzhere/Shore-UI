@@ -1,0 +1,20 @@
+.grid {
+  display: grid;
+}
+
+.two-comps {
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.three-comps {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.component {
+  width: 200px;
+  padding: 2rem;
+  border: 1%;
+  background-color: var(--color-shadow);
+}
