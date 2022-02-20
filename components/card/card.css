@@ -1,65 +1,90 @@
 .card {
-  height: 450px;
-  width: 350px;
+  width: 300px;
   background-color: var(--color-white);
   text-align: center;
   position: relative;
+  border-radius: 2%;
+}
+
+/* .image-container {
+  position: relative;
+} */
+
+.vertical-badge {
+  z-index: 1;
+  width: 75%;
+  position: absolute;
+  top: 21.7%;
+  left: -30.5%;
+  background-color: var(--color-danger);
+  padding: 0.5rem;
+  color: var(--color-white);
+  transform: rotate(270deg);
+  font-size: 1.1rem;
 }
 
 .card-image {
-  height: auto;
-  width: 100%;
-  border-radius: 0px 0 0 50px;
+  width: 300px;
+  height: 224.7px;
+  margin: auto;
+  border-radius: 2%;
   object-fit: cover;
 }
 
+.card-content {
+  padding: 0.5rem 0;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  font-weight: var(--font-medium);
+}
+
 .card-header {
+  font-size: 1.6rem;
+  font-weight: var(--font-boldest);
   margin: 0.2rem auto;
-  padding-top: 0.5rem;
-  font-size: 2rem;
   color: var(--color-black);
 }
 
 .card-text {
   display: inline-block;
   margin: 0.2rem auto;
-  font-size: 1rem;
   color: var(--color-black);
 }
 
-.card-btn > p {
+.card-info > p {
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
   color: var(--card-shadow);
-  font-size: 1.5rem;
   overflow: hidden;
+}
+
+.svg {
+  cursor: pointer;
 }
 
 span {
   display: inline-block;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
-/* textonly card  */
-
-.textonly-card {
-  margin: 1rem;
-  height: 200px;
+.card-svg {
+  width: 50%;
 }
 
-/* text overlay */
-
-.text-overlay {
-  text-align: left;
-  height: 250px;
+.change__cart {
+  cursor: pointer;
 }
+
+/* text overlay card  */
 
 .text-overlay > .card-content {
   position: absolute;
-  right: 5%;
-  bottom: 5%;
+  top: 5%;
+  left: 5%;
 }
 
 .overlay-text {
-  color: var(--color-secondary);
+  color: var(--color-white);
 }
 
 /* badge card  */
@@ -78,6 +103,21 @@ span {
 .dismissable-card > .svg {
   position: absolute;
   right: 0;
-  top: 5px;
+  top: 5%;
   cursor: pointer;
+  opacity: 1;
+}
+
+.dismissable-card > .svg:hover {
+  transform: scale(1.2);
+}
+
+/* horizontal card  */
+
+.card.horizontal-card {
+  width: 560px;
+}
+
+.horizontal-card > .card-content {
+  margin: 2rem auto;
 }
