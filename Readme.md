@@ -10,10 +10,6 @@
 
 # Website Walkthrough
 
-<video width="600" height="240" controls>
-  <source src="./assets/videos/video.mp4" type="video/mp4">
-</video>
-
 ## Live Demo
 
 https://shoreui.netlify.app/
@@ -21,6 +17,15 @@ https://shoreui.netlify.app/
 <hr />
 
 # Overview
+
+## Installation
+
+Copy paste the link below to your css file to start using it right away.
+<br >
+@import url("shoreui.netlify.app/css/base.css");
+
+<hr />
+
 
 Below are the list of added components
 
