@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/base.css" />
-    <title>Snackbar</title>
+    <title>Snackbar | Shore UI</title>
   </head>
   <body>
     <div class="container">
@@ -13,7 +13,7 @@
         <nav>
           <div class="left-nav flex flex-items-center justify-between">
             <img class="hamburger" src="/assets/svg/hamburger-solid.svg" />
-            <a href="../../../index.html">
+            <a href="/index.html">
               <img class="logo flex-grow" src="/assets/svg/logo.svg" />
             </a>
             <a
@@ -53,8 +53,12 @@
               <li>
                 <a href="/Components/button/button.html"> Button </a>
               </li>
+
               <li>
                 <a href="/Components/card/card.html"> Card </a>
+              </li>
+              <li>
+                <a href="/components/grid/grid.html"> Grid </a>
               </li>
               <li>
                 <a href="/Components/image/image.html"> Image </a>
@@ -66,11 +70,22 @@
                 <a href="/Components/list/list.html"> List </a>
               </li>
               <li>
+                <a href="/Components/modal/modal.html"> Modal </a>
+              </li>
+              <li>
                 <a href="/Components/navbar/navbar.html"> Navbar </a>
+              </li>
+              <li>
+                <a href="/Components/rating/rating.html"> Rating </a>
               </li>
               <li>
                 <a class="active" href="/Components/snackbar/snackbar.html">
                   Snackbar
+                </a>
+              </li>
+              <li>
+                <a href="/Components/typography/typography.html">
+                  Typography
                 </a>
               </li>
             </ul>
@@ -86,7 +101,7 @@
 
           <div class="divider"></div>
 
-          <!-- Standard Input -->
+          <!-- Snackbar -->
 
           <div class="content-head mb-4">Snackbar</div>
 
@@ -110,20 +125,13 @@
             </div>
           </div>
 
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522snackbar%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522snackbar-text%2522%253EYou%2520can%27t%2520see%2520me%2520in%25205%2520seconds.%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522snackbar-text%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520default-btn%2522%253ERETRY%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cimg%250A%2520%2520%2520%2520class%253D%2522fas%2520fa-times%2522%250A%2520%2520%2520%2520src%253D%2522%252Fassets%252Fsvg%252Ftimes-solid.svg%2522%250A%2520%2520%2520%2520id%253D%2522close%2522%250A%2520%2520%252F%253E%250A%253C%252Fdiv%253E"
-            style="
-              width: 1000px;
-              height: 391px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-
-          <div class="divider"></div>
+          <div class="iframe-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522snackbar-div%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522snackbar%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-text%2522%253EYou%2520can%27t%2520see%2520me%2520in%25205%2520seconds.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522snackbar-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520default-btn%2522%253ERETRY%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522fas%2520fa-times%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522%252Fassets%252Fsvg%252Ftimes-solid.svg%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522close%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
       </div>
     </div>

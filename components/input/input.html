@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/base.css" />
-    <title>Input</title>
+    <title>Input | Shore UI</title>
   </head>
   <body>
     <div class="container">
@@ -13,7 +13,7 @@
         <nav>
           <div class="left-nav flex flex-items-center justify-between">
             <img class="hamburger" src="/assets/svg/hamburger-solid.svg" />
-            <a href="../../../index.html">
+            <a href="/index.html">
               <img class="logo flex-grow" src="/assets/svg/logo.svg" />
             </a>
             <a
@@ -45,22 +45,25 @@
                 <a href="/components/alert/alert.html"> Alert </a>
               </li>
               <li>
-                <a href="/Components/avatar/avatar.html"> Avatar </a>
+                <a href="/Components/Avatar/avatar.html"> Avatar </a>
               </li>
               <li>
-                <a href="/Components/badge/badge.html"> Badge </a>
+                <a href="/Components/Badge/badge.html"> Badge </a>
               </li>
               <li>
-                <a href="/Components/button/button.html"> Button </a>
+                <a href="/Components/Button/button.html"> Button </a>
               </li>
               <li>
-                <a href="/Components/card/card.html"> Card </a>
+                <a href="/Components/Card/card.html"> Card </a>
+              </li>
+              <li>
+                <a href="/Components/grid/grid.html"> Grid </a>
               </li>
               <li>
                 <a href="/Components/image/image.html"> Image </a>
               </li>
               <li>
-                <a class="active" href="/Components/input/input.html">
+                <a class="active" href="/Components/Input/input.html">
                   Input
                 </a>
               </li>
@@ -68,10 +71,21 @@
                 <a href="/Components/list/list.html"> List </a>
               </li>
               <li>
+                <a href="/Components/modal/modal.html"> Modal </a>
+              </li>
+              <li>
                 <a href="/Components/navbar/navbar.html"> Navbar </a>
               </li>
               <li>
+                <a href="/Components/rating/rating.html"> Rating </a>
+              </li>
+              <li>
                 <a href="/Components/snackbar/snackbar.html"> Snackbar </a>
+              </li>
+              <li>
+                <a href="/Components/typography/typography.html">
+                  Typography
+                </a>
               </li>
             </ul>
           </div>
@@ -150,20 +164,13 @@
             </div>
           </div>
 
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex%2520flex-col%2520input-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522label-inputs%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522username%2522%253EUsername%2520%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520class%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522username%2522%250A%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520username%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522label-inputs%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522username%2522%253EPassword%2520%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520class%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522username%2522%250A%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Normal%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522label-inputs%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522username%2522%253EPassword%2520%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520class%253D%2522input%2520warning-input%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522username%2522%250A%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Warning%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522warning-text%2522%253E%250A%2520%2520%2520%2520%2520%2520Password%2520cannot%2520be%2520same%2520as%2520username.%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522label-inputs%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522username%2522%253EPassword%2520%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520class%253D%2522input%2520error-input%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522username%2522%250A%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Wrong%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522error-text%2522%253EWrong%2520password%21%2520Try%2520Again%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522label-inputs%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522username%2522%253EPassword%2520%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520class%253D%2522input%2520success-input%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522username%2522%250A%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Success%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522success-text%2522%253EWelcome%2520%21%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-            style="
-              width: 1000px;
-              height: 1138px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-
-          <div class="divider"></div>
+          <div class="iframe-container">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=1000&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522flex%2520flex-col%2520input-container%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522label-inputs%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522username%2522%253EUsername%2520%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520class%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522username%2522%250A%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Enter%2520username%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522label-inputs%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522username%2522%253EPassword%2520%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520class%253D%2522input%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522username%2522%250A%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Normal%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522label-inputs%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522username%2522%253EPassword%2520%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520class%253D%2522input%2520warning-input%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522username%2522%250A%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Warning%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522warning-text%2522%253E%250A%2520%2520%2520%2520%2520%2520Password%2520cannot%2520be%2520same%2520as%2520username.%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522label-inputs%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522username%2522%253EPassword%2520%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520class%253D%2522input%2520error-input%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522username%2522%250A%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Wrong%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522error-text%2522%253EWrong%2520password%21%2520Try%2520Again%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522label-inputs%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522username%2522%253EPassword%2520%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520class%253D%2522input%2520success-input%2522%250A%2520%2520%2520%2520%2520%2520id%253D%2522username%2522%250A%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520placeholder%253D%2522Success%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522success-text%2522%253EWelcome%2520%21%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </div>
       </div>
     </div>

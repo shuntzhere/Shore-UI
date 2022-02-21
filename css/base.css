@@ -1,15 +1,15 @@
 /* base files  */
-@import "./reset.css";
-@import "./variables.css";
-@import "./utility.css";
-@import "./margin.css";
-@import "./padding.css";
-@import "./typography.css";
+@import "./default/reset.css";
+@import "./default/variables.css";
+@import "./default/typography.css";
+@import "./utilities/margin.css";
+@import "./utilities/padding.css";
+@import "./utilities/utility.css";
 
-/* components  */
-@import "/nav.css";
-@import "/main.css";
-@import "/sidebar.css";
+/* Docs components  */
+@import "./docs/main.css";
+@import "./docs/nav.css";
+@import "./docs/sidebar.css";
 
 /* components  */
 @import "/components/alert/alert.css";
